@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+*{
+
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+
+    font-family: 'Open Sans';
+}
+
+header{
+
+    background-color: #F2F2F2;
+    text-align: center; /* Centrar el contenido */
+    padding:25px 0px;
+
+}
+
+nav a{
+
+    text-decoration: none;
+    display:inline-block;
+    color:#696969;
+    margin:0 30px;
+    padding:5px 25px;
+
+}
+
+nav a:hover{
+
+    background-color: #000;
+    color:#fff;
+
+}
+
+.encabezado-img{
+
+background-image:url('fondo.jpg');
+height: 500px;
+background-size:cover;
+display:flex;
+flex-direction: column;
+justify-content: center;
+align-items:center;
+color:#fff;
+
+}
+
+.encabezado-img p{
+
+    font-size: 20px;
+}
+
+.encabezado-img h1{
+
+    font-size: 50px;
+    padding:20px 0px;
+}
+
+/*Seccion quienes somos. */
+
+section{
+
+    margin:15px;
+}
+
+section2_titulo{
+
+    text-align: center;
+}
